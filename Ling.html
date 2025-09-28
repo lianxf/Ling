@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>恭喜你</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #f9e6ff, #a8e6ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    .container {
+      background: white;
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      max-width: 500px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h1 {
+      color: #e91e63;
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.3em;
+      color: #333;
+      margin: 20px 0;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 恭喜你！</h1>
+    <p>你已成功拍下「小飞飞」一个</p>
+    <p>他将陪伴你终身</p>
+    <p style="font-weight: bold; color: #4caf50;">祝你们白头偕老，幸福久久 💖</p>
+  </div>
+</body>
+</html>
